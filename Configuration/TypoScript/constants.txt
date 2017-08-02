@@ -1,0 +1,15 @@
+
+plugin.tx_scdsacharmanager_pi {
+	view {
+		# cat=plugin.tx_scdsacharmanager_pi/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:sc_dsacharmanager/Resources/Private/Templates/
+		# cat=plugin.tx_scdsacharmanager_pi/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:sc_dsacharmanager/Resources/Private/Partials/
+		# cat=plugin.tx_scdsacharmanager_pi/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:sc_dsacharmanager/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_scdsacharmanager_pi//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

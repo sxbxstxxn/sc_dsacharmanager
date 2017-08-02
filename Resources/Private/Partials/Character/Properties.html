@@ -1,0 +1,1774 @@
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#persdata">Persönliche Daten</a></li>
+    <li><a data-toggle="tab" href="#spielwerte">Spielwerte</a></li>
+    <li><a data-toggle="tab" href="#kampf">Kampf</a></li>
+    <li><a data-toggle="tab" href="#zundl">Zauber & Liturgien</a></li>
+    <li><a data-toggle="tab" href="#zundr">Zauber & Rituale</a></li>
+    <li><a data-toggle="tab" href="#lundz">Liturgien & Zeremonien</a></li>
+    <li><a data-toggle="tab" href="#besitz">Besitz</a></li>
+  </ul>
+
+<div class="tab-content">
+	<!-- Persönliche Daten -->
+	<div id="persdata" class="tab-pane fade in active col-md-12 dsa-bogen">
+		<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Persönliche Daten</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+
+			<div class="col-md-7">
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.name" />: </div>
+					<div class="col-md-10 col-xs-10 pdvalue">{character.name}</div>
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.familie" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.familie}</div>		
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.geburtsort" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.geburtsort}</div>
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.geburtsdatum" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.geburtsdatum}</div>
+					<div class="col-md-1 col-xs-1 pdlabel nopadding">Alter: </div>
+					<div class="col-md-2 col-xs-2 pdvalue">{character.goetterlaeufe}</div>		
+					<div class="col-md-1 col-xs-1 pdlabel nopadding">m/w: </div>
+					<div class="col-md-2 col-xs-2 pdvalue">{character.geschlecht}</div>		
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.spezies" />: </div>		
+					<div class="col-md-4 col-xs-4 pdvalue">{character.spezies}</div>
+					<div class="col-md-1 col-xs-1 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.groesse" />: </div>
+					<div class="col-md-2 col-xs-2 pdvalue">{character.groesse}</div>		
+					<div class="col-md-1 col-xs-1 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.gewicht" />: </div>
+					<div class="col-md-2 col-xs-2 pdvalue">{character.gewicht}</div>	
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.haarfarbe" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.haarfarbe}</div>		
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.augenfarbe" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.augenfarbe}</div>
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.kultur" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.kultur}</div>		
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.profession" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.profession}</div>
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.titel" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.titel}</div>		
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.sozialstatus" />: </div>
+					<div class="col-md-4 col-xs-4 pdvalue">{character.sozialstatus}</div>
+				</div>
+				<div class="col-md-12 pdline nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.charakteristika" />: </div>
+					<div class="col-md-10 col-xs-10 pdvalue">{character.charakteristika}</div>
+				</div>
+				<div class="col-md-12 pdline pdsonstiges nopadding">
+					<div class="col-md-2 col-xs-2 pdlabel nopadding"><f:translate key="tx_scdsacharmanager_domain_model_character.sonstiges" />: </div>
+					<div class="col-md-10 col-xs-10 pdvalue">{character.sonstiges}</div>
+				</div>
+				
+			</div>
+			
+			<div class="col-md-5">
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 col-xs-6 pdvalue">{character.erfahrungsgrad}</div>
+					<div class="col-md-6 col-xs-6 pdlabel"><f:translate key="tx_scdsacharmanager_domain_model_character.erfahrungsgrad" /></div>		
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 col-xs-6 pdvalue">{character.apGesamt}</div>
+					<div class="col-md-6 col-xs-6 pdlabel"><f:translate key="tx_scdsacharmanager_domain_model_character.ap_gesamt" /></div>		
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 col-xs-6 pdvalue">{character.apVerfuegbar}</div>
+					<div class="col-md-6 col-xs-6 pdlabel"><f:translate key="tx_scdsacharmanager_domain_model_character.ap_verfuegbar" /></div>		
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 col-xs-6 pdvalue">{character.apAusgegeben}</div>
+					<div class="col-md-6 col-xs-6 pdlabel"><f:translate key="tx_scdsacharmanager_domain_model_character.ap_ausgegeben" /></div>		
+				</div>
+			</div>
+		</div>
+		<!-- CONTENT PD ADD -->
+		<div class="col-md-12 part-pd-add nopadding">
+		
+			<div class="col-md-7">
+				<div class="col-md-12 nopadding">
+					<div class="col-md-12 pdline-header nopadding">Vorteile:</div>
+					<div class="col-md-12 pdline pdvorteile nopadding">{character.vorteile}</div>
+				</div>
+				
+				<div class="col-md-12 nopadding">
+					<div class="col-md-12 pdline-header nopadding">Nachteile:</div>
+					<div class="col-md-12 pdline pdnachteile nopadding">{character.nachteile}</div>
+				</div>
+				
+				<div class="col-md-12 nopadding">
+					<div class="col-md-12 pdline-header nopadding">Allgemeine Sonderfertigkeiten:</div>
+					<div class="col-md-12 pdline pdsfallg nopadding">{character.sfallg}</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Lebensenergie</div>
+						<div class="col-md-12 sub nopadding">(Gw durch Spezies + KO + KO)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.lebensenergie}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.lebensenergieBonus}</div></div>
+							<div class="col-md-3 wertbox-outer">Kauf<div class="col-md-12 wertbox-inner nopadding">{character.lebensenergieKauf}</div></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.lebensenergieMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Astralenergie</div>
+						<div class="col-md-12 sub nopadding">(20 d. Zauberer+Leiteigenschaft)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.astralenergie}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.astralenergieBonus}</div></div>
+							<div class="col-md-3 wertbox-outer">Kauf<div class="col-md-12 wertbox-inner nopadding">{character.astralenergieKauf}</div></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.astralenergieMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Karmaenergie</div>
+						<div class="col-md-12 sub nopadding">(20 d. Geweihter+Leiteigenschaft)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.karmaenergie}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.karmaenergieBonus}</div></div>
+							<div class="col-md-3 wertbox-outer">Kauf<div class="col-md-12 wertbox-inner nopadding">{character.karmaenergieKauf}</div></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.karmaenergieMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Seelenkraft</div>
+						<div class="col-md-12 sub nopadding">(GW der Spezies + (MU+KL+IN)/6)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.seelenkraft}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.seelenkraftBonus}</div></div>
+							<div class="col-md-3 wertbox-outer"></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.seelenkraftMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Zähigkeit</div>
+						<div class="col-md-12 sub nopadding">(GW der Spezies + (KO+KO+KK)/6)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.zaehigkeit}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.zaehigkeitBonus}</div></div>
+							<div class="col-md-3 wertbox-outer"></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.zaehigkeitMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Ausweichen</div>
+						<div class="col-md-12 sub nopadding">(GE/2)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.ausweichen}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.ausweichenBonus}</div></div>
+							<div class="col-md-3 wertbox-outer"></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.ausweichenMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Initiative</div>
+						<div class="col-md-12 sub nopadding">(MU + GE)/2</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.initiative}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.initiativeBonus}</div></div>
+							<div class="col-md-3 wertbox-outer"></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.initiativeMax}</div></div>
+						</div>
+					</div>			
+				</div>
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-6 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Geschwindigkeit</div>
+						<div class="col-md-12 sub nopadding">(GW der Spezies)</div>
+					</div>
+					<div class="col-md-6 pdvalue nopadding">
+						<div class="col-md-12 nopadding">
+							<div class="col-md-3 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.geschwindigkeit}</div></div>
+							<div class="col-md-3 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.geschwindigkeitBonus}</div></div>
+							<div class="col-md-3 wertbox-outer"></div>
+							<div class="col-md-3 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.geschwindigkeitMax}</div></div>
+						</div>
+					</div>			
+				</div>	
+
+				<div class="col-md-12 pdbox nopadding">
+					<div class="col-md-12 pdlabel nopadding">
+						<div class="col-md-12 main nopadding">Schicksalspunkte</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-4 wertbox-outer">Wert<div class="col-md-12 wertbox-inner nopadding">{character.schicksalspunkte}</div></div>
+							<div class="col-md-4 wertbox-outer">Bonus<div class="col-md-12 wertbox-inner nopadding">{character.schicksalspunkteBonus}</div></div>					
+							<div class="col-md-4 wertbox-outer">Max<div class="col-md-12 wertbox-inner nopadding">{character.schicksalspunkteMax}</div></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-12 wertbox-outer">Aktuell<div class="col-md-12 wertbox-inner nopadding">{character.schicksalspunkteAktuell}</div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+	<!-- Spielwerte -->
+	<div id="spielwerte" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Spielwerte</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-sw nopadding">
+			<h3>Fertigkeiten</h3>
+		</div>
+		<div class="col-md-12 part-sw swtables nopadding">
+			<!-- left -->
+			<div class="col-md-6 swleft nopadding">
+				<div class="col-md-12 nopadding swline swtableheader">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 nopadding">Talent</div>
+						<div class="col-md-4 grey nopadding">Probe</div>
+						<div class="col-md-2 nopadding">BE</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">SF.</div>
+						<div class="col-md-1 nopadding">FW</div>
+						<div class="col-md-1 grey nopadding">R</div>
+						<div class="col-md-9 nopadding">Anmerkung</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline bold nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Körpertalente</div>
+						<div class="col-md-4 grey nopadding">MU/GE/KK</div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">S. 188-194</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Fliegen</div>
+						<div class="col-md-4 grey nopadding">MU/IN/GE</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentFliegenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentFliegenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Gaukeleien</div>
+						<div class="col-md-4 grey nopadding">MU/CH/FF</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentGaukeleienFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentGaukeleienAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Klettern</div>
+						<div class="col-md-4 grey nopadding">MU/GE/KK</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentKletternFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentKletternAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Körperbeherrschung</div>
+						<div class="col-md-4 grey nopadding">GE/GE/KO</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">D</div>
+						<div class="col-md-1 nopadding">{character.talentKoerperbeherrschungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentKoerperbeherrschungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Kraftakt</div>
+						<div class="col-md-4 grey nopadding">KO/KK/KK</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentKraftaktFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentKraftaktAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Reiten</div>
+						<div class="col-md-4 grey nopadding">CH/GE/KK</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentReitenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentReitenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Schwimmen</div>
+						<div class="col-md-4 grey nopadding">GE/KO/KK</div>
+						<div class="col-md-2 nopadding">ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentSchwimmenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentSchwimmenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Selbstbeherrschung</div>
+						<div class="col-md-4 grey nopadding">MU/MU/KO</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">D</div>
+						<div class="col-md-1 nopadding">{character.talentSelbstbeherrschungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentSelbstbeherrschungAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Singen</div>
+						<div class="col-md-4 grey nopadding">KL/CH/KO</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentSingenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentSingenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Sinnesschärfe</div>
+						<div class="col-md-4 grey nopadding">KL/IN/IN</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">D</div>
+						<div class="col-md-1 nopadding">{character.talentSinnesschaerfeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentSinnesschaerfeAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Tanzen</div>
+						<div class="col-md-4 grey nopadding">KL/CH/GE</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentTanzenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentTanzenAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Taschendiebstahl</div>
+						<div class="col-md-4 grey nopadding">MU/FF/GE</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentTaschendiebstahlFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentTaschendiebstahlAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Verbergen</div>
+						<div class="col-md-4 grey nopadding">MU/IN/GE</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentVerbergenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentVerbergenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Zechen</div>
+						<div class="col-md-4 grey nopadding">KL/KO/KK</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentZechenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentZechenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding"></div>
+						<div class="col-md-4 grey nopadding"></div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding"></div>
+					</div>
+				</div>
+				<div class="col-md-12 swline bold nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Gesellschaftstalente</div>
+						<div class="col-md-4 grey nopadding">MU/KL/CH</div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">S. 194-198</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Bekehren&Überzeugen</div>
+						<div class="col-md-4 grey nopadding">MU/KL/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentBekehrenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentBekehrenAnmerkung}</div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Betören</div>
+						<div class="col-md-4 grey nopadding">MU/CH/CH</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentBetoerenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentBetoerenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Einschüchtern</div>
+						<div class="col-md-4 grey nopadding">MU/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentEinschuechternFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentEinschuechternAnmerkung}</div>
+					</div>
+				</div>		
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Etikette</div>
+						<div class="col-md-4 grey nopadding">KL/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentEtiketteFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentEtiketteAnmerkung}</div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Gassenwissen</div>
+						<div class="col-md-4 grey nopadding">KL/IN/CH</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentGassenwissenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentGassenwissenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Menschenkenntnis</div>
+						<div class="col-md-4 grey nopadding">KL/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentMenschenkenntnisFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentMenschenkenntnisAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Überreden</div>
+						<div class="col-md-4 grey nopadding">MU/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentUeberredenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentUeberredenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Verkleiden</div>
+						<div class="col-md-4 grey nopadding">IN/CH/GE</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentVerkleidenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentVerkleidenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Willenskraft</div>
+						<div class="col-md-4 grey nopadding">MU/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">D</div>
+						<div class="col-md-1 nopadding">{character.talentWillenskraftFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentWillenskraftAnmerkung}</div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding"></div>
+						<div class="col-md-4 grey nopadding"></div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding"></div>
+					</div>
+				</div>
+				<div class="col-md-12 swline bold nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Naturtalente</div>
+						<div class="col-md-4 grey nopadding">MU/GE/KO</div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">S. 198-201</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Fährtensuchen</div>
+						<div class="col-md-4 grey nopadding">MU/IN/GE</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentFaehrtensuchenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentFaehrtensuchenAnmerkung}</div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Fesseln</div>
+						<div class="col-md-4 grey nopadding">KL/FF/KK</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentFesselnFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentFesselnAnmerkung}</div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Fischen&Angeln</div>
+						<div class="col-md-4 grey nopadding">FF/GE/KO</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentFischenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentFischenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Orientierung</div>
+						<div class="col-md-4 grey nopadding">KL/IN/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentOrientierungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentOrientierungAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Pflanzenkunde</div>
+						<div class="col-md-4 grey nopadding">KL/FF/KO</div>
+						<div class="col-md-2 nopadding">Evtl</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentPflanzenkundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentPflanzenkundeAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Tierkunde</div>
+						<div class="col-md-4 grey nopadding">MU/MU/CH</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentTierkundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentTierkundeAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Wildnisleben</div>
+						<div class="col-md-4 grey nopadding">MU/GE/KO</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentWildnislebenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 borderright nopadding">{character.talentWildnislebenAnmerkung}</div>
+					</div>
+				</div>
+			</div>
+			<!-- right -->
+			<div class="col-md-6 swright nopadding">
+				<div class="col-md-12 nopadding swline swtableheader">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 nopadding">Talent</div>
+						<div class="col-md-4 grey nopadding">Probe</div>
+						<div class="col-md-2 nopadding">BE</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">SF.</div>
+						<div class="col-md-1 nopadding">FW</div>
+						<div class="col-md-1 grey nopadding">R</div>
+						<div class="col-md-9 nopadding">Anmerkung</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline bold nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Wissenstalente</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">S. 201-206</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Brett-&Glücksspiel</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentBrettspielFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentBrettspielAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Geographie</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentGeographieFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentGeographieAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Geschichtswissen</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentGeschichtswissenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentGeschichtswissenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Götter&Kulte</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentGoetterFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentGoetterAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Kriegskunst</div>
+						<div class="col-md-4 grey nopadding">MU/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentKriegskunstFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentKriegskunstAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Magiekunde</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentMagiekundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentMagiekundeAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Mechanik</div>
+						<div class="col-md-4 grey nopadding">KL/KL/FF</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentMechanikFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentMechanikAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Rechnen</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentRechnenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentRechnenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Rechtskunde</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentRechtskundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentRechtskundeAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Sagen&Legenden</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentSagenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentSagenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Sphärenkunde</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentSphaerenkundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentSphaerenkundeAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Sternkunde</div>
+						<div class="col-md-4 grey nopadding">KL/KL/IN</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentSternkundeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentSternkundeAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding"></div>
+						<div class="col-md-4 grey nopadding"></div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding"></div>
+					</div>
+				</div>	
+				<div class="col-md-12 swline bold nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Handwerkstalente</div>
+						<div class="col-md-4 grey nopadding">FF/FF/KO</div>
+						<div class="col-md-2 nopadding"></div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-1 nopadding"></div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">S. 206-213</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Alchimie</div>
+						<div class="col-md-4 grey nopadding">MU/KL/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentAlchimieFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentAlchimieAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Boote&Schiffe</div>
+						<div class="col-md-4 grey nopadding">FF/GE/KK</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentBooteFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentBooteAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Fahrzeuge</div>
+						<div class="col-md-4 grey nopadding">CH/GE/KO</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentFahrzeugeFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentFahrzeugeAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Handel</div>
+						<div class="col-md-4 grey nopadding">KL/IN/CH</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentHandelFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHandelAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Heilkunde Gift</div>
+						<div class="col-md-4 grey nopadding">MU/KL/IN</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentHeilkundeGiftFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHeilkundeGiftAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Heilkunde Krankheiten</div>
+						<div class="col-md-4 grey nopadding">MU/IN/KO</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentHeilkundeKrankheitenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHeilkundeKrankheitenAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Heilkunde Seele</div>
+						<div class="col-md-4 grey nopadding">IN/CH/KO</div>
+						<div class="col-md-2 nopadding">Nein</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentHeilkundeSeeleFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHeilkundeSeeleAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Heilkunde Wunden</div>
+						<div class="col-md-4 grey nopadding">KL/FF/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">D</div>
+						<div class="col-md-1 nopadding">{character.talentHeilkundeWundenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHeilkundeWundenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Holzbearbeitung</div>
+						<div class="col-md-4 grey nopadding">FF/GE/KK</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentHolzbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentHolzbearbeitungAnmerkung}</div>					
+					</div>
+				</div>	
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Lebensmittelbearbeitung</div>
+						<div class="col-md-4 grey nopadding">IN/FF/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentLebensmittelbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentLebensmittelbearbeitungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Lederbearbeitung</div>
+						<div class="col-md-4 grey nopadding">FF/GE/KO</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">B</div>
+						<div class="col-md-1 nopadding">{character.talentLederbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentLederbearbeitungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Malen&Zeichnen</div>
+						<div class="col-md-4 grey nopadding">IN/FF/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentMalenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentMalenAnmerkung}</div>
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Metallbearbeitung</div>
+						<div class="col-md-4 grey nopadding">FF/KO/KK</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentMetallbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentMetallbearbeitungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Musizieren</div>
+						<div class="col-md-4 grey nopadding">CH/FF/KO</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentMusizierenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentMusizierenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Schlösserknacken</div>
+						<div class="col-md-4 grey nopadding">IN/FF/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">C</div>
+						<div class="col-md-1 nopadding">{character.talentSchloesserknackenFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentSchloesserknackenAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Steinbearbeitung</div>
+						<div class="col-md-4 grey nopadding">FF/FF/KK</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentSteinbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentSteinbearbeitungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swline nopadding">
+					<div class="col-md-6 nopadding">
+						<div class="col-md-6 textleft nopadding">Stoffbearbeitung</div>
+						<div class="col-md-4 grey nopadding">KL/FF/FF</div>
+						<div class="col-md-2 nopadding">Ja</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="col-md-1 grey nopadding">A</div>
+						<div class="col-md-1 nopadding">{character.talentStoffbearbeitungFW}</div>
+						<div class="col-md-1 grey nopadding"></div>
+						<div class="col-md-9 nopadding">{character.talentStoffbearbeitungAnmerkung}</div>					
+					</div>
+				</div>
+				<div class="col-md-12 swlegend">
+					SF. = STEIGERUNGSFAKTOR, FW = FERTIGKEITSWERT, R = ROUTINE
+				</div>	
+			</div>
+		</div>			
+		<div class="col-md-4 swsprachen nopadding">
+			<div class="col-md-12 nopadding"><h3>Sprachen</h3></div>
+			<div id="scdsaSprache" class="hidden">{character.sprachen}</div>
+			<div id="scdsa-Speach-Container">
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft nopadding"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-9 swleft"></div>
+					<div class="col-md-3 swright"></div>
+				</div>
+			</div>
+			<div class="col-md-12 nopadding"><h3>Schriften</h3></div>
+			<div id="scdsaSchrift" class="hidden">{character.schriften}</div>
+			<div id="scdsa-font-Container">
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-12 swleft nopadding"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-12 swleft nopadding"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-12 swleft nopadding"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-12 swleft nopadding"></div>
+				</div>
+				<div class="col-md-12 swspeechline nopadding">
+					<div class="col-md-12 swleft nopadding"></div>
+				</div>
+			</div>
+		</div>			
+		<div class="col-md-6 col-md-offset-2 swroutineproben">
+			<div class="col-md-6 swtext">
+				<h3>Routineproben</h3>
+				Alle Proben-Eigenschaften auf 13+<br/>
+				Optional:<br/>
+				Je fehlendem Eigenschaftspunkt<br/>
+				FW um drei höher als angegeben
+			</div>
+			<div class="col-md-6 swroutinetable nopadding">
+				<div class="col-md-12 nopadding swroutineline swroutinelineheader">
+					<div class="col-md-3">Proben-<br/>Mod.</div>
+					<div class="col-md-3 grey">Nötiger<br/>FW</div>
+					<div class="col-md-3">Proben-<br/>Mod.</div>
+					<div class="col-md-3 grey">Nötiger<br/>FW</div>					
+				</div>
+				<div class="col-md-12 nopadding swroutineline">
+					<div class="col-md-3">ab +3</div>
+					<div class="col-md-3 grey">1</div>
+					<div class="col-md-3">-1</div>
+					<div class="col-md-3 grey">13</div>					
+				</div>
+				<div class="col-md-12 nopadding swroutineline">
+					<div class="col-md-3">+2</div>
+					<div class="col-md-3 grey">4</div>
+					<div class="col-md-3">-2</div>
+					<div class="col-md-3 grey">16</div>					
+				</div>				
+				<div class="col-md-12 nopadding swroutineline">
+					<div class="col-md-3">+1</div>
+					<div class="col-md-3 grey">7</div>
+					<div class="col-md-3">-3</div>
+					<div class="col-md-3 grey">19</div>					
+				</div>		
+				<div class="col-md-12 nopadding swroutineline">
+					<div class="col-md-3">+/-0</div>
+					<div class="col-md-3 grey">10</div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3 grey"></div>					
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-md-offset-1 swcharacteristics">
+			<div class="col-md-12 nopadding">
+				<h3>Eigenschaftsmodifikationen</h3>
+				<div id="scdmcalc-eigenschaftsmodifikationen" class="col-md-12 swcharacteristicstable nopadding">
+					<div class="col-md-12 swcharacteristicsline swcharacteristicslineheader nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2"></div>
+							<div class="col-md-3 grey nopadding">-3</div>
+							<div class="col-md-3 nopadding">-2</div>
+							<div class="col-md-3 grey nopadding">-1</div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding">0</div>
+							<div class="col-md-3 grey nopadding">+1</div>
+							<div class="col-md-3 nopadding">+2</div>
+							<div class="col-md-3 grey nopadding">+3</div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-mu" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">MU</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-mu nopadding scdmwert">{character.mut}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>	
+					<div id="scdmcalc-eigenschaftsmodifikationen-kl" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">KL</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-kl nopadding scdmwert">{character.klugheit}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-in" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">IN</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-in nopadding scdmwert">{character.intuition}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-ch" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">CH</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-ch nopadding scdmwert">{character.charisma}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-ff" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">FF</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-ff nopadding scdmwert">{character.fingerfertigkeit}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-ge" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">GE</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-ge nopadding scdmwert">{character.gewandheit}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen-ko" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">KO</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-ko nopadding scdmwert">{character.konstitution}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>
+					<div id="scdmcalc-eigenschaftsmodifikationen" class="col-md-12 swcharacteristicsline nopadding">
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 nopadding col-offset-2">KK</div>
+							<div class="col-md-3 grey nopadding scdmwert3m"></div>
+							<div class="col-md-3 nopadding scdmwert2m"></div>
+							<div class="col-md-3 grey nopadding scdmwert1m"></div>
+						</div>
+						<div class="col-md-6 nopadding">
+							<div class="col-md-3 swchar-kk nopadding scdmwert">{character.koerperkraft}</div>
+							<div class="col-md-3 grey nopadding scdmwert1p"></div>
+							<div class="col-md-3 nopadding scdmwert2p"></div>
+							<div class="col-md-3 grey nopadding scdmwert3p"></div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2 col-md-offset-1 swquality">
+			<div class="col-md-12 nopadding">
+				<h3>Qualitätsstufen</h3>
+				<div class="col-md-12 swqualitytable nopadding">
+					<div class="col-md-12 swqualityline swqualitylineheader nopadding">
+						<div class="col-md-6 nopadding">Fertigkeits-<br/>punkte</div>
+						<div class="col-md-6 grey nopadding">Qualitäts-<br/>stufe</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">0-3</div>
+						<div class="col-md-6 grey nopadding">1</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">4-6</div>
+						<div class="col-md-6 grey nopadding">2</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">7-9</div>
+						<div class="col-md-6 grey nopadding">3</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">10-12</div>
+						<div class="col-md-6 grey nopadding">4</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">13-15</div>
+						<div class="col-md-6 grey nopadding">5</div>
+					</div>
+					<div class="col-md-12 swqualityline nopadding">
+						<div class="col-md-6 nopadding">16+</div>
+						<div class="col-md-6 grey nopadding">6</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Kampf -->
+	<div id="kampf" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Kampf</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+			Kampf
+		</div>	
+	</div>
+	<!-- Zauber & Liturgien -->
+	<div id="zundl" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Zauber & Liturgien</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+			Zauber & Liturgien
+		</div>
+	</div>
+	<!-- Zauber & Rituale -->
+	<div id="zundr" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Zauber & Rituale</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+			Zauber & Rituale
+		</div>
+	</div>
+	<!-- Liturgien & Zauber -->
+	<div id="lundz" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Liturgien & Zeremonien</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+			Liturgien & Zeremonien
+		</div>
+	</div>
+	<!-- Besitz -->
+	<div id="besitz" class="tab-pane fade col-md-12 dsa-bogen">
+	<!-- HEADER LOGO -->
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">
+				<div class="col-md-12 dsa-bogen-logo"><img src="/scsrc/img/logo-fanprojekt.png" width="100%"/></div>
+			</div>
+		</div>
+		<!-- HEADER -->	
+		<div class="col-md-12 nopadding">
+			<div class="col-md-4">		
+				<div class="col-md-12 dsa-bogen-title">Heldendokument</div>
+				<div class="col-md-12 dsa-bogen-subtitle">Besitz</div>
+			</div>	
+			<div class="col-md-1 dsa-bogen-wertbox wbmu">
+				<div class="col-md-12 wblabel">MU</div>
+				<div class="col-md-12 wbvalue">{character.mut}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkl">
+				<div class="col-md-12 wblabel">KL</div>
+				<div class="col-md-12 wbvalue">{character.klugheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbin">
+				<div class="col-md-12 wblabel">IN</div>
+				<div class="col-md-12 wbvalue">{character.intuition}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbch">
+				<div class="col-md-12 wblabel">CH</div>
+				<div class="col-md-12 wbvalue">{character.charisma}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbff">
+				<div class="col-md-12 wblabel">FF</div>
+				<div class="col-md-12 wbvalue">{character.fingerfertigkeit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbge">
+				<div class="col-md-12 wblabel">GE</div>
+				<div class="col-md-12 wbvalue">{character.gewandheit}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbko">
+				<div class="col-md-12 wblabel">KO</div>
+				<div class="col-md-12 wbvalue">{character.konstitution}</div>
+			</div>
+			<div class="col-md-1 dsa-bogen-wertbox wbkk">
+				<div class="col-md-12 wblabel">KK</div>
+				<div class="col-md-12 wbvalue">{character.koerperkraft}</div>
+			</div>
+		</div>
+		<!-- CONTENT PD MAIN -->
+		<div class="col-md-12 part-pd nopadding">
+			Besitz
+		</div>
+	</div>
+</div>

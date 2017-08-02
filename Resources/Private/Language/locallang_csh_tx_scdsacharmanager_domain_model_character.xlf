@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-15T11:21:32Z" product-name="sc_dsacharmanager">
+		<header/>
+		<body>
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="feuser_i_d.description">
+				<source>feuserID</source>
+			</trans-unit>
+			<trans-unit id="spezies.description">
+				<source>spezies</source>
+			</trans-unit>
+			<trans-unit id="kultur.description">
+				<source>kultur</source>
+			</trans-unit>
+			<trans-unit id="profession.description">
+				<source>profession</source>
+			</trans-unit>
+			<trans-unit id="erfahrungsgrad.description">
+				<source>erfahrungsgrad</source>
+			</trans-unit>
+			<trans-unit id="typbeschreibung.description">
+				<source>typbeschreibung</source>
+			</trans-unit>
+			<trans-unit id="haarfarbe.description">
+				<source>haarfarbe</source>
+			</trans-unit>
+			<trans-unit id="augenfarbe.description">
+				<source>augenfarbe</source>
+			</trans-unit>
+			<trans-unit id="groesse.description">
+				<source>groesse</source>
+			</trans-unit>
+			<trans-unit id="gewicht.description">
+				<source>gewicht</source>
+			</trans-unit>
+			<trans-unit id="sozialstatus.description">
+				<source>sozialstatus</source>
+			</trans-unit>
+			<trans-unit id="mut.description">
+				<source>mut</source>
+			</trans-unit>
+			<trans-unit id="klugheit.description">
+				<source>klugheit</source>
+			</trans-unit>
+			<trans-unit id="intuition.description">
+				<source>intuition</source>
+			</trans-unit>
+			<trans-unit id="charisma.description">
+				<source>charisma</source>
+			</trans-unit>
+			<trans-unit id="fingerfertigkeit.description">
+				<source>fingerfertigkeit</source>
+			</trans-unit>
+			<trans-unit id="gewandheit.description">
+				<source>gewandheit</source>
+			</trans-unit>
+			<trans-unit id="konstitution.description">
+				<source>konstitution</source>
+			</trans-unit>
+			<trans-unit id="koerperkraft.description">
+				<source>koerperkraft</source>
+			</trans-unit>
+			<trans-unit id="lebensenergie.description">
+				<source>lebensenergie</source>
+			</trans-unit>
+			<trans-unit id="astralenergie.description">
+				<source>astralenergie</source>
+			</trans-unit>
+			<trans-unit id="karmaenergie.description">
+				<source>karmaenergie</source>
+			</trans-unit>
+			<trans-unit id="seelenkraft.description">
+				<source>seelenkraft</source>
+			</trans-unit>
+			<trans-unit id="zaehigkeit.description">
+				<source>zaehigkeit</source>
+			</trans-unit>
+			<trans-unit id="ausweichen.description">
+				<source>ausweichen</source>
+			</trans-unit>
+			<trans-unit id="initiative.description">
+				<source>initiative</source>
+			</trans-unit>
+			<trans-unit id="geschwindigkeit.description">
+				<source>geschwindigkeit</source>
+			</trans-unit>
+			<trans-unit id="schicksalspunkte.description">
+				<source>schicksalspunkte</source>
+			</trans-unit>
+			<trans-unit id="vorteile.description">
+				<source>vorteile</source>
+			</trans-unit>
+			<trans-unit id="nachteile.description">
+				<source>nachteile</source>
+			</trans-unit>
+			<trans-unit id="sfallg.description">
+				<source>sfallg</source>
+			</trans-unit>
+			<trans-unit id="familie.description">
+				<source>familie</source>
+			</trans-unit>
+			<trans-unit id="geburtsort.description">
+				<source>geburtsort</source>
+			</trans-unit>
+			<trans-unit id="geburtsdatum.description">
+				<source>geburtsdatum</source>
+			</trans-unit>
+			<trans-unit id="goetterlaeufe.description">
+				<source>goetterlaeufe</source>
+			</trans-unit>
+			<trans-unit id="geschlecht.description">
+				<source>geschlecht</source>
+			</trans-unit>
+			<trans-unit id="titel.description">
+				<source>titel</source>
+			</trans-unit>
+			<trans-unit id="charakteristika.description">
+				<source>charakteristika</source>
+			</trans-unit>
+			<trans-unit id="sonstiges.description">
+				<source>sonstiges</source>
+			</trans-unit>
+			<trans-unit id="ap_gesamt.description">
+				<source>apGesamt</source>
+			</trans-unit>
+			<trans-unit id="ap_verfuegbar.description">
+				<source>apVerfuegbar</source>
+			</trans-unit>
+			<trans-unit id="ap_ausgegeben.description">
+				<source>apAusgegeben</source>
+			</trans-unit>
+			<trans-unit id="lebensenergie_bonus.description">
+				<source>lebensenergieBonus</source>
+			</trans-unit>
+			<trans-unit id="lebensenergie_kauf.description">
+				<source>lebensenergieKauf</source>
+			</trans-unit>
+			<trans-unit id="lebensenergie_max.description">
+				<source>lebensenergieMax</source>
+			</trans-unit>
+			<trans-unit id="astralenergie_bonus.description">
+				<source>astralenergieBonus</source>
+			</trans-unit>
+			<trans-unit id="astralenergie_kauf.description">
+				<source>astralenergieKauf</source>
+			</trans-unit>
+			<trans-unit id="astralenergie_max.description">
+				<source>astralenergieMax</source>
+			</trans-unit>
+			<trans-unit id="karmaenergie_bonus.description">
+				<source>karmaenergieBonus</source>
+			</trans-unit>
+			<trans-unit id="karmaenergie_kauf.description">
+				<source>karmaenergieKauf</source>
+			</trans-unit>
+			<trans-unit id="karmaenergie_max.description">
+				<source>karmaenergieMax</source>
+			</trans-unit>
+			<trans-unit id="seelenkraft_bonus.description">
+				<source>seelenkraftBonus</source>
+			</trans-unit>
+			<trans-unit id="seelenkraft_max.description">
+				<source>seelenkraftMax</source>
+			</trans-unit>
+			<trans-unit id="zaehigkeit_bonus.description">
+				<source>zaehigkeitBonus</source>
+			</trans-unit>
+			<trans-unit id="zaehigkeit_max.description">
+				<source>zaehigkeitMax</source>
+			</trans-unit>
+			<trans-unit id="ausweichen_bonus.description">
+				<source>ausweichenBonus</source>
+			</trans-unit>
+			<trans-unit id="ausweichen_max.description">
+				<source>ausweichenMax</source>
+			</trans-unit>
+			<trans-unit id="initiative_bonus.description">
+				<source>initiativeBonus</source>
+			</trans-unit>
+			<trans-unit id="initiative_max.description">
+				<source>initiativeMax</source>
+			</trans-unit>
+			<trans-unit id="geschwindigkeit_bonus.description">
+				<source>geschwindigkeitBonus</source>
+			</trans-unit>
+			<trans-unit id="geschwindigkeit_max.description">
+				<source>geschwindigkeitMax</source>
+			</trans-unit>
+			<trans-unit id="schicksalspunkte_bonus.description">
+				<source>schicksalspunkteBonus</source>
+			</trans-unit>
+			<trans-unit id="schicksalspunkte_max.description">
+				<source>schicksalspunkteMax</source>
+			</trans-unit>
+			<trans-unit id="schicksalspunkte_aktuell.description">
+				<source>schicksalspunkteAktuell</source>
+			</trans-unit>
+			<trans-unit id="talent_fliegen_f_w.description">
+				<source>talentFliegenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_fliegen_anmerkung.description">
+				<source>talentFliegenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_gaukeleien_f_w.description">
+				<source>talentGaukeleienFW</source>
+			</trans-unit>
+			<trans-unit id="talent_gaukeleien_anmerkung.description">
+				<source>talentGaukeleienAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_klettern_f_w.description">
+				<source>talentKletternFW</source>
+			</trans-unit>
+			<trans-unit id="talent_klettern_anmerkung.description">
+				<source>talentKletternAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_koerperbeherrschung_f_w.description">
+				<source>talentKoerperbeherrschungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_koerperbeherrschung_anmerkung.description">
+				<source>talentKoerperbeherrschungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_kraftakt_f_w.description">
+				<source>talentKraftaktFW</source>
+			</trans-unit>
+			<trans-unit id="talent_kraftakt_anmerkung.description">
+				<source>talentKraftaktAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_reiten_f_w.description">
+				<source>talentReitenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_reiten_anmerkung.description">
+				<source>talentReitenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_schwimmen_f_w.description">
+				<source>talentSchwimmenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_schwimmen_anmerkung.description">
+				<source>talentSchwimmenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_selbstbeherrschung_f_w.description">
+				<source>talentSelbstbeherrschungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_selbstbeherrschung_anmerkung.description">
+				<source>talentSelbstbeherrschungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_singen_f_w.description">
+				<source>talentSingenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_singen_anmerkung.description">
+				<source>talentSingenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_sinnesschaerfe_f_w.description">
+				<source>talentSinnesschaerfeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_sinnesschaerfe_anmerkung.description">
+				<source>talentSinnesschaerfeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_tanzen_f_w.description">
+				<source>talentTanzenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_tanzen_anmerkung.description">
+				<source>talentTanzenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_taschendiebstahl_f_w.description">
+				<source>talentTaschendiebstahlFW</source>
+			</trans-unit>
+			<trans-unit id="talent_taschendiebstahl_anmerkung.description">
+				<source>talentTaschendiebstahlAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_verbergen_f_w.description">
+				<source>talentVerbergenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_verbergen_anmerkung.description">
+				<source>talentVerbergenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_zechen_f_w.description">
+				<source>talentZechenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_zechen_anmerkung.description">
+				<source>talentZechenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_bekehren_f_w.description">
+				<source>talentBekehrenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_bekehren_anmerkung.description">
+				<source>talentBekehrenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_betoeren_f_w.description">
+				<source>talentBetoerenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_betoeren_anmerkung.description">
+				<source>talentBetoerenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_einschuechtern_f_w.description">
+				<source>talentEinschuechternFW</source>
+			</trans-unit>
+			<trans-unit id="talent_einschuechtern_anmerkung.description">
+				<source>talentEinschuechternAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_etikette_f_w.description">
+				<source>talentEtiketteFW</source>
+			</trans-unit>
+			<trans-unit id="talent_etikette_anmerkung.description">
+				<source>talentEtiketteAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_gassenwissen_f_w.description">
+				<source>talentGassenwissenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_gassenwissen_anmerkung.description">
+				<source>talentGassenwissenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_menschenkenntnis_f_w.description">
+				<source>talentMenschenkenntnisFW</source>
+			</trans-unit>
+			<trans-unit id="talent_menschenkenntnis_anmerkung.description">
+				<source>talentMenschenkenntnisAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_ueberreden_f_w.description">
+				<source>talentUeberredenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_ueberreden_anmerkung.description">
+				<source>talentUeberredenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_verkleiden_f_w.description">
+				<source>talentVerkleidenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_verkleiden_anmerkung.description">
+				<source>talentVerkleidenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_willenskraft_f_w.description">
+				<source>talentWillenskraftFW</source>
+			</trans-unit>
+			<trans-unit id="talent_willenskraft_anmerkung.description">
+				<source>talentWillenskraftAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_faehrtensuchen_f_w.description">
+				<source>talentFaehrtensuchenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_faehrtensuchen_anmerkung.description">
+				<source>talentFaehrtensuchenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_fesseln_f_w.description">
+				<source>talentFesselnFW</source>
+			</trans-unit>
+			<trans-unit id="talent_fesseln_anmerkung.description">
+				<source>talentFesselnAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_fischen_f_w.description">
+				<source>talentFischenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_fischen_anmerkung.description">
+				<source>talentFischenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_orientierung_f_w.description">
+				<source>talentOrientierungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_orientierung_anmerkung.description">
+				<source>talentOrientierungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_pflanzenkunde_f_w.description">
+				<source>talentPflanzenkundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_pflanzenkunde_anmerkung.description">
+				<source>talentPflanzenkundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_tierkunde_f_w.description">
+				<source>talentTierkundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_tierkunde_anmerkung.description">
+				<source>talentTierkundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_wildnisleben_f_w.description">
+				<source>talentWildnislebenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_wildnisleben_anmerkung.description">
+				<source>talentWildnislebenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_brettspiel_f_w.description">
+				<source>talentBrettspielFW</source>
+			</trans-unit>
+			<trans-unit id="talent_brettspiel_anmerkung.description">
+				<source>talentBrettspielAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_geographie_f_w.description">
+				<source>talentGeographieFW</source>
+			</trans-unit>
+			<trans-unit id="talent_geographie_anmerkung.description">
+				<source>talentGeographieAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_geschichtswissen_f_w.description">
+				<source>talentGeschichtswissenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_geschichtswissen_anmerkung.description">
+				<source>talentGeschichtswissenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_goetter_f_w.description">
+				<source>talentGoetterFW</source>
+			</trans-unit>
+			<trans-unit id="talent_goetter_anmerkung.description">
+				<source>talentGoetterAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_kriegskunst_f_w.description">
+				<source>talentKriegskunstFW</source>
+			</trans-unit>
+			<trans-unit id="talent_kriegskunst_anmerkung.description">
+				<source>talentKriegskunstAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_magiekunde_f_w.description">
+				<source>talentMagiekundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_magiekunde_anmerkung.description">
+				<source>talentMagiekundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_mechanik_f_w.description">
+				<source>talentMechanikFW</source>
+			</trans-unit>
+			<trans-unit id="talent_mechanik_anmerkung.description">
+				<source>talentMechanikAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_rechnen_f_w.description">
+				<source>talentRechnenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_rechnen_anmerkung.description">
+				<source>talentRechnenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_sagen_f_w.description">
+				<source>talentSagenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_sagen_anmerkung.description">
+				<source>talentSagenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_sphaerenkunde_f_w.description">
+				<source>talentSphaerenkundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_sphaerenkunde_anmerkung.description">
+				<source>talentSphaerenkundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_sternkunde_f_w.description">
+				<source>talentSternkundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_sternkunde_anmerkung.description">
+				<source>talentSternkundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_alchimie_f_w.description">
+				<source>talentAlchimieFW</source>
+			</trans-unit>
+			<trans-unit id="talent_alchimie_anmerkung.description">
+				<source>talentAlchimieAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_boote_f_w.description">
+				<source>talentBooteFW</source>
+			</trans-unit>
+			<trans-unit id="talent_boote_anmerkung.description">
+				<source>talentBooteAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_fahrzeuge_f_w.description">
+				<source>talentFahrzeugeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_fahrzeuge_anmerkung.description">
+				<source>talentFahrzeugeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_handel_f_w.description">
+				<source>talentHandelFW</source>
+			</trans-unit>
+			<trans-unit id="talent_handel_anmerkung.description">
+				<source>talentHandelAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_gift_f_w.description">
+				<source>talentHeilkundeGiftFW</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_gift_anmerkung.description">
+				<source>talentHeilkundeGiftAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_krankheiten_f_w.description">
+				<source>talentHeilkundeKrankheitenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_krankheiten_anmerkung.description">
+				<source>talentHeilkundeKrankheitenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_seele_f_w.description">
+				<source>talentHeilkundeSeeleFW</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_seele_anmerkung.description">
+				<source>talentHeilkundeSeeleAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_wunden_f_w.description">
+				<source>talentHeilkundeWundenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_heilkunde_wunden_anmerkung.description">
+				<source>talentHeilkundeWundenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_holzbearbeitung_f_w.description">
+				<source>talentHolzbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_holzbearbeitung_anmerkung.description">
+				<source>talentHolzbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_lebensmittelbearbeitung_f_w.description">
+				<source>talentLebensmittelbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_lebensmittelbearbeitung_anmerkung.description">
+				<source>talentLebensmittelbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_lederbearbeitung_f_w.description">
+				<source>talentLederbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_lederbearbeitung_anmerkung.description">
+				<source>talentLederbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_malen_f_w.description">
+				<source>talentMalenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_malen_anmerkung.description">
+				<source>talentMalenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_metallbearbeitung_f_w.description">
+				<source>talentMetallbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_metallbearbeitung_anmerkung.description">
+				<source>talentMetallbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_musizieren_f_w.description">
+				<source>talentMusizierenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_musizieren_anmerkung.description">
+				<source>talentMusizierenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_schloesserknacken_f_w.description">
+				<source>talentSchloesserknackenFW</source>
+			</trans-unit>
+			<trans-unit id="talent_schloesserknacken_anmerkung.description">
+				<source>talentSchloesserknackenAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_steinbearbeitung_f_w.description">
+				<source>talentSteinbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_steinbearbeitung_anmerkung.description">
+				<source>talentSteinbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_stoffbearbeitung_f_w.description">
+				<source>talentStoffbearbeitungFW</source>
+			</trans-unit>
+			<trans-unit id="talent_stoffbearbeitung_anmerkung.description">
+				<source>talentStoffbearbeitungAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="talent_rechtskunde_f_w.description">
+				<source>talentRechtskundeFW</source>
+			</trans-unit>
+			<trans-unit id="talent_rechtskunde_anmerkung.description">
+				<source>talentRechtskundeAnmerkung</source>
+			</trans-unit>
+			<trans-unit id="sprachen.description">
+				<source>sprachen</source>
+			</trans-unit>
+			<trans-unit id="schriften.description">
+				<source>schriften</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

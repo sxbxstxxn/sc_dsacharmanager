@@ -1,0 +1,446 @@
+.tx-sc-dsacharmanager .button-header {
+	text-align:center;
+	margin-bottom:1em;
+}
+
+.tx-sc-dsacharmanager .button-header a {
+	background-color: #FFF5DD;
+	border-color: #80672F;
+}
+
+.tx-sc-dsacharmanager .button-footer {
+	text-align:center;
+	margin-top:1em;
+}
+
+.tx-sc-dsacharmanager .button-footer a {
+	background-color: #FFF5DD;
+	border-color: #80672F;
+}
+
+.tx-sc-dsacharmanager .editmode {
+	/*border:0.5em solid #8B0000;*/
+}
+
+.tx-sc-dsacharmanager input, .tx-sc-dsacharmanager select{
+	border:none;
+	background-color:#DDE4FF;
+	width:100%;
+	height:100%;
+}
+.tx-sc-dsacharmanager input:focus {
+	background-color:#eee;
+}
+
+.tx-sc-dsacharmanager input.safe-btn {
+	width:none;
+}
+
+.tx-sc-dsacharmanager .nopadding {
+	padding:0;	
+}
+
+
+/* List Ansicht */
+
+.tx-sc-dsacharmanager .listheader {
+	font-weight:bold;
+	background-color:#80672F;
+	color:#FFF5DD;
+}
+
+.tx-sc-dsacharmanager .panel-group .panel {
+	margin-bottom:0.35em;
+}
+
+.tx-sc-dsacharmanager .panel-group .panel:hover {
+	border-color: #8B0000;
+}
+
+.tx-sc-dsacharmanager .panel-group .panel-body{
+	color:#333333;
+}
+
+.tx-sc-dsacharmanager .panel-group .panel-body .charname{
+	/*font-family: 'Frijole', cursive;*/
+}
+
+.tx-sc-dsacharmanager .panel-group .panel:hover  .panel-body {
+	color: #80672F;
+}
+
+.tx-sc-dsacharmanager  .charnew .charnewtext{
+	/*color:#333;*/
+	text-align:center;
+	/*font-family: 'Frijole', cursive;*/
+}
+
+.tx-sc-dsacharmanager  .charnew .charnew-right{
+	text-align:right;
+}
+
+.tx-sc-dsacharmanager  .charnew:hover .charnewtext{
+	/*color:#8B0000;*/
+}
+
+/*DSA Bogen */
+
+
+.tx-sc-dsacharmanager .dsa-bogen {
+	background-color: #FFFFFF;
+	padding-top:2em;
+	padding-bottom:3em;
+	padding-left:2.5em;
+	padding-right:2.5em;
+}
+
+.tx-sc-dsacharmanager .dsa-bogen-title {
+	font-weight:bold;
+	font-style:italic;
+	font-size:2.25em;
+	text-align:center;
+}
+
+.tx-sc-dsacharmanager .dsa-bogen-subtitle {
+	text-align:center;
+	font-size:1.3em;
+	text-transform:uppercase;
+}
+
+.tx-sc-dsacharmanager .dsa-bogen-wertbox {
+	padding:5px;
+}
+
+.tx-sc-dsacharmanager .dsa-bogen-wertbox .wblabel {
+	border-top: 0.2em solid;
+	border-left:0.2em solid;
+	border-right:0.2em solid;
+	font-weight:bold;
+	text-align:center;
+}
+
+.tx-sc-dsacharmanager .dsa-bogen-wertbox .wbvalue{
+	border-bottom: 0.1em solid;
+	border-left:0.1em solid;
+	border-right:0.1em solid;
+	font-style:italic;
+	font-size:2em;
+	text-align:center;
+}
+
+.tx-sc-dsacharmanager .wbmu .wblabel, .tx-sc-dsacharmanager .wbmu .wbvalue {border-color:#FF0000;}
+.tx-sc-dsacharmanager .wbkl .wblabel, .tx-sc-dsacharmanager .wbkl .wbvalue {border-color:#AA00FF;}
+.tx-sc-dsacharmanager .wbin .wblabel, .tx-sc-dsacharmanager .wbin .wbvalue {border-color:#006400;}
+.tx-sc-dsacharmanager .wbch .wblabel, .tx-sc-dsacharmanager .wbch .wbvalue {border-color:#000000;}
+.tx-sc-dsacharmanager .wbff .wblabel, .tx-sc-dsacharmanager .wbff .wbvalue {border-color:#EEEE00;}
+.tx-sc-dsacharmanager .wbge .wblabel, .tx-sc-dsacharmanager .wbge .wbvalue {border-color:#0000FF;}
+.tx-sc-dsacharmanager .wbko .wblabel, .tx-sc-dsacharmanager .wbko .wbvalue {border-color:#CCCCCC;}
+.tx-sc-dsacharmanager .wbkk .wblabel, .tx-sc-dsacharmanager .wbkk .wbvalue {border-color:#FFA500;}
+
+
+.tx-sc-dsacharmanager .part-pd {
+	margin-top:2em;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdline {
+	border-bottom:1px solid;
+	height:2em;
+	margin-top:0.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdline .pdlabel {
+	font-weight:bold;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdsonstiges {
+	border-bottom:none;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdsonstiges .pdvalue{
+	height: 6em;
+	border: 1px dotted;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdbox {
+	height:4.3em;
+	margin-top:2em;
+}
+.tx-sc-dsacharmanager .part-pd .pdbox .pdvalue {
+	border:1px solid;
+	padding:1em;	
+	height:100%;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1.3em;
+}
+
+
+
+.tx-sc-dsacharmanager .part-pd .pdbox .pdlabel {
+	padding:1em;
+	height:100%;
+	vertical-align:middle;
+	padding-top:1.3em;
+}
+
+
+
+.tx-sc-dsacharmanager .part-pd .grundwerte-header {
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	font-size:1.2em;
+	margin-top:2.6em;
+
+}
+
+.tx-sc-dsacharmanager .part-pd .grundwerte-value {
+	margin-top:2.9em;
+}
+
+.tx-sc-dsacharmanager .part-pd .grundwerte-value .glabel {
+	font-style:italic;
+	text-align:center;
+	font-size:1.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd .grundwerte-value .wert {
+	text-align:center;
+	font-size:1.5em;
+	background-color:#DDE4FF;
+}
+
+.tx-sc-dsacharmanager .part-pd .pdline textarea , .tx-sc-dsacharmanager .part-pd-add .pdline textarea {
+	border:none;
+	background-color:#DDE4FF;
+	width:100%;
+	height:100%;
+}
+
+
+.tx-sc-dsacharmanager .part-pd-add {
+
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdline {
+	border-bottom:1px solid;
+	height:2em;
+	margin-top:0.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdline-header, .tx-sc-dsacharmanager .swline-header{
+	margin-top:1em;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdvorteile, 
+.tx-sc-dsacharmanager .part-pd-add .pdnachteile, 
+.tx-sc-dsacharmanager .part-pd-add .pdsfallg {
+	border-bottom:none;
+	border:1px dotted;
+	height:15em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdbox {
+	margin-top:2em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdbox .pdlabel {
+	padding:0;
+	margin-top: 0.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdbox .pdlabel .main{
+	font-weight: bold;
+	font-size:1.5em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .pdbox .pdlabel .sub{
+	font-size:0.8em;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .wertbox-outer {	
+	padding:0.2em;
+	font-size:0.8em;
+	font-weight: bold;
+	text-align:center;
+}
+
+.tx-sc-dsacharmanager .part-pd-add .wertbox-inner {
+	border:1px solid;
+	padding:0.2em;
+	font-size:1.7em;
+	text-align:center;
+}
+
+.tx-sc-dsacharmanager .swline {
+	line-height:2.5;
+	border-bottom: 1px solid #333;
+}
+
+.tx-sc-dsacharmanager .swtables {
+	border-top:1px solid;
+	text-align: center;
+	font-size: 12px;
+}
+
+.tx-sc-dsacharmanager .swtables .swtableheader {
+	font-weight:bold;
+}
+
+.tx-sc-dsacharmanager .swtables .grey {
+	background-color: #ddd;
+}
+
+.tx-sc-dsacharmanager .swtables .bold {
+	font-weight:bold;
+}
+
+.tx-sc-dsacharmanager .swtables .textleft {
+	text-align:left;
+	padding-left:0.4em;
+}
+.tx-sc-dsacharmanager .swtables .borderright {
+	border-right:1px solid #333;
+}
+
+.tx-sc-dsacharmanager .swtables .swline div > div:after
+{
+    content: '.';
+    visibility: hidden;
+}
+
+.tx-sc-dsacharmanager .swlegend {
+	text-align:left;
+	font-weight:bold;
+	font-style:italic;
+	line-height:2.5;
+}
+
+.tx-sc-dsacharmanager .swspeechline {
+	line-height:2.5;
+}
+
+.tx-sc-dsacharmanager .swspeechline div:after
+{
+    content: '.';
+    visibility: hidden;
+}
+
+.tx-sc-dsacharmanager .swspeechline .swleft{
+	border-bottom: 1px solid #333;
+}
+
+.tx-sc-dsacharmanager .swspeechline .swright{
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+}
+
+.tx-sc-dsacharmanager .swroutineproben {
+	margin-top:-1em;
+}
+
+.tx-sc-dsacharmanager .swroutineproben h3{
+	margin-top:0;
+}
+
+.tx-sc-dsacharmanager .swroutineproben .swtext{
+	text-align:right;
+	font-weight:bold;
+}
+
+.tx-sc-dsacharmanager .swroutineline, .tx-sc-dsacharmanager .swqualityline, .tx-sc-dsacharmanager .swcharacteristicsline{
+	line-height:2.5;
+	border-bottom: 1px solid #333;
+}
+
+.tx-sc-dsacharmanager .swroutineline div:after
+{
+    content: '.';
+    visibility: hidden;
+}
+
+
+
+.tx-sc-dsacharmanager .swroutinelineheader, .tx-sc-dsacharmanager .swqualitylineheader{
+	font-weight:bold;
+	border-top:1px solid #333;
+	line-height:1.5;
+	text-align: center;
+}
+
+.tx-sc-dsacharmanager .swcharacteristicslineheader{
+	font-weight:bold;
+	border-top:1px solid #333;
+	line-height:2.5;
+	text-align: center;
+}
+
+.tx-sc-dsacharmanager .swroutinetable, .tx-sc-dsacharmanager .swqualitytable, .tx-sc-dsacharmanager .swcharacteristicstable {
+	text-align: center;
+}
+
+.tx-sc-dsacharmanager .swroutinetable .grey, .tx-sc-dsacharmanager .swqualitytable .grey, .tx-sc-dsacharmanager .swcharacteristicstable .grey  {
+	background-color: #ddd;
+}
+
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-mu {
+	background-color: #FFB2B2;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-kl {
+	background-color: #E0B2F0;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-in {
+	background-color: #C1F0C1;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-ch {
+	background-color: #C9C9C9;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-ff {
+	background-color: #FFFFB2;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-ge {
+	background-color: #B2FFFF;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-ko {
+	background-color: #FFFFFF;
+}
+.tx-sc-dsacharmanager .swcharacteristicstable .swchar-kk {
+	background-color: #FFD1B2;
+}
+
+.tx-sc-dsacharmanager .swcharacteristics {
+	margin-top:-0.7em;
+}
+
+.tx-sc-dsacharmanager .swquality {
+	margin-top:3.9em;
+}
+
+.tx-sc-dsacharmanager #scdsa-vorteile, .tx-sc-dsacharmanager #scdsa-nachteile {
+	background-color:#FFFFFF;
+}
+
+/*.tx-sc-dsacharmanager #scdsa-btn-addVorteil, .tx-sc-dsacharmanager #scdsa-btn-rmVorteil, .tx-sc-dsacharmanager #scdsa-btn-addNachteil, .tx-sc-dsacharmanager #scdsa-btn-rmNachteil {*/
+.tx-sc-dsacharmanager .scdsa-btn-attribut {
+	background-color:#DDE4FF;
+	border:1px dotted #333;
+	float:right;
+	margin-left:0.5em;
+	margin-top:0.5em;
+	padding:0.5em;
+	padding-top:0;
+	padding-bottom:0;
+	border-radius:0;
+}
+
+.tx-sc-dsacharmanager .scdsa-modal-hover {
+	padding:0.5em;
+	cursor:pointer;
+}
+
+.tx-sc-dsacharmanager .scdsa-modal-hover:hover {
+	background-color:#9E8651;
+}

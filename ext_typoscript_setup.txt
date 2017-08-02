@@ -1,0 +1,15 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            DSACharManager\ScDsacharmanager\Domain\Model\CustomUser {
+                mapping {
+                    tableName = fe_users
+                    recordType = Tx_ScDsacharmanager_CustomUser
+                }
+            }
+            
+    	}
+    }
+}

@@ -1,0 +1,121 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+
+<f:flashMessages renderMode="div" />
+	abc
+	{races}
+	<f:for each="{races}" as="race">
+		{race.name}
+	</f:for>
+	xyz
+<div  class="tx_scdsacharmanager col-md-12 col-xs-12 nopadding" >
+	<div class="panel panel-default listheader">
+		 <div class="panel-body">
+			<div class="col-md-5"><f:translate key="tx_scdsacharmanager_domain_model_character.name" /></div>
+			<div class="col-md-2"><f:translate key="tx_scdsacharmanager_domain_model_character.spezies" /></div>
+			<div class="col-md-2"><f:translate key="tx_scdsacharmanager_domain_model_character.kultur" /></div>
+			<div class="col-md-2"><f:translate key="tx_scdsacharmanager_domain_model_character.profession" /></div>
+			<!--<div class="col-md-1"><f:translate key="tx_scdsacharmanager_domain_model_character.erfahrungsgrad" /></div>-->
+			<div class="col-md-1">Erfahrung</div>
+		 </div>
+	</div>
+
+	<div class="panel-group">	
+		<f:for each="{characters}" as="character">
+			<f:link.action class="listlink" action="show" arguments="{character : character}" title="{character.name}">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="col-md-5 charname">{character.name}</div>
+					<div class="col-md-2">{character.spezies}</div>
+					<div class="col-md-2">{character.kultur}</div>
+					<div class="col-md-2">{character.profession}</div>
+					<div class="col-md-1">{character.erfahrungsgrad}</div>
+				</div>
+			</div>
+			</f:link.action>
+		</f:for>
+	</div>
+	
+	<f:link.action class="listlink" action="new">
+		<div class="panel panel-default">
+			<div class="panel-body charnew">
+				<div class="col-md-2"><span class="glyphicon glyphicon-plus"></span></div>
+				<div class="col-md-8 charnewtext">Neuen Charakter Anlegen</div>
+				<div class="col-md-2 charnew-right"><span class="glyphicon glyphicon-plus"></span></div>
+			</div>
+		</div>
+	</f:link.action>
+</div>
+	
+	
+<!--				<td> {character.erfahrungsgrad}</td>
+
+	<!--
+		<div class="col-md-3 col-xs-6">		
+			<f:link.action class="charListItem thumbnail" action="show" arguments="{character : character}" title="{character.name}"> 
+			<div class="row charListItemTop">
+				<div class="col-md-6 col-xs-12 charname">{character.name}</div>
+				<div class="col-md-5 col-xs-5 dsa_fanprodukt hidden-xs"></div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-md-4 hidden-xs">
+					<f:translate key="tx_scdsacharmanager_domain_model_character.spezies" /><br/>
+				</div>
+				<div class="col-md-8 col-xs-12">	
+					{character.spezies}<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 hidden-xs">
+					<f:translate key="tx_scdsacharmanager_domain_model_character.kultur" /><br/>
+				</div>
+				<div class="col-md-8 col-xs-12">	
+					{character.kultur}<br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 hidden-xs">
+					<f:translate key="tx_scdsacharmanager_domain_model_character.profession" />
+				</div>
+				<div class="col-md-8 col-xs-12">	
+					{character.profession}<br/>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-md-6 col-xs-6">
+					<span class="smalltext"><u><f:translate key="tx_scdsacharmanager_domain_model_character.typbeschreibung" /></u><br/>
+					<i>{character.typbeschreibung}</i></span>
+				</div>
+				<div class="col-md-6 col-xs-6">
+					<span class="smalltext"><u><f:translate key="tx_scdsacharmanager_domain_model_character.erfahrungsgrad" /></u></span><br/>
+					<b>{character.erfahrungsgrad}</b>
+				</div>
+			</div>
+			</f:link.action>
+
+		</div>
+		
+	
+		<div class="col-md-3 col-xs-6">	
+			<f:link.action class="charListItem thumbnail" action="new">New Character</f:link.action>
+		</div>
+		-->
+
+
+
+</f:section>

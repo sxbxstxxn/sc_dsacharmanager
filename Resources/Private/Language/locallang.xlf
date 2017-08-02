@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-15T11:21:32Z" product-name="sc_dsacharmanager">
+		<header/>
+		<body>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character">
+				<source>Character</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.feuser_i_d">
+				<source>Feuser I D</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.spezies">
+				<source>Spezies</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.kultur">
+				<source>Kultur</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.profession">
+				<source>Profession</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.erfahrungsgrad">
+				<source>Erfahrungsgrad</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.typbeschreibung">
+				<source>Typbeschreibung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.haarfarbe">
+				<source>Haarfarbe</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.augenfarbe">
+				<source>Augenfarbe</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.groesse">
+				<source>Groesse</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.gewicht">
+				<source>Gewicht</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.sozialstatus">
+				<source>Sozialstatus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.mut">
+				<source>Mut</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.klugheit">
+				<source>Klugheit</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.intuition">
+				<source>Intuition</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.charisma">
+				<source>Charisma</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.fingerfertigkeit">
+				<source>Fingerfertigkeit</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.gewandheit">
+				<source>Gewandheit</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.konstitution">
+				<source>Konstitution</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.koerperkraft">
+				<source>Koerperkraft</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.lebensenergie">
+				<source>Lebensenergie</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.astralenergie">
+				<source>Astralenergie</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.karmaenergie">
+				<source>Karmaenergie</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.seelenkraft">
+				<source>Seelenkraft</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.zaehigkeit">
+				<source>Zaehigkeit</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ausweichen">
+				<source>Ausweichen</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.initiative">
+				<source>Initiative</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geschwindigkeit">
+				<source>Geschwindigkeit</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.schicksalspunkte">
+				<source>Schicksalspunkte</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.vorteile">
+				<source>Vorteile</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.nachteile">
+				<source>Nachteile</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.sfallg">
+				<source>Sfallg</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.familie">
+				<source>Familie</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geburtsort">
+				<source>Geburtsort</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geburtsdatum">
+				<source>Geburtsdatum</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.goetterlaeufe">
+				<source>Goetterlaeufe</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geschlecht">
+				<source>Geschlecht</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.titel">
+				<source>Titel</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.charakteristika">
+				<source>Charakteristika</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.sonstiges">
+				<source>Sonstiges</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ap_gesamt">
+				<source>Ap Gesamt</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ap_verfuegbar">
+				<source>Ap Verfuegbar</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ap_ausgegeben">
+				<source>Ap Ausgegeben</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.lebensenergie_bonus">
+				<source>Lebensenergie Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.lebensenergie_kauf">
+				<source>Lebensenergie Kauf</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.lebensenergie_max">
+				<source>Lebensenergie Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.astralenergie_bonus">
+				<source>Astralenergie Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.astralenergie_kauf">
+				<source>Astralenergie Kauf</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.astralenergie_max">
+				<source>Astralenergie Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.karmaenergie_bonus">
+				<source>Karmaenergie Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.karmaenergie_kauf">
+				<source>Karmaenergie Kauf</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.karmaenergie_max">
+				<source>Karmaenergie Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.seelenkraft_bonus">
+				<source>Seelenkraft Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.seelenkraft_max">
+				<source>Seelenkraft Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.zaehigkeit_bonus">
+				<source>Zaehigkeit Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.zaehigkeit_max">
+				<source>Zaehigkeit Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ausweichen_bonus">
+				<source>Ausweichen Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.ausweichen_max">
+				<source>Ausweichen Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.initiative_bonus">
+				<source>Initiative Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.initiative_max">
+				<source>Initiative Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geschwindigkeit_bonus">
+				<source>Geschwindigkeit Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.geschwindigkeit_max">
+				<source>Geschwindigkeit Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.schicksalspunkte_bonus">
+				<source>Schicksalspunkte Bonus</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.schicksalspunkte_max">
+				<source>Schicksalspunkte Max</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.schicksalspunkte_aktuell">
+				<source>Schicksalspunkte Aktuell</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fliegen_f_w">
+				<source>Talent Fliegen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fliegen_anmerkung">
+				<source>Talent Fliegen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_gaukeleien_f_w">
+				<source>Talent Gaukeleien F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_gaukeleien_anmerkung">
+				<source>Talent Gaukeleien Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_klettern_f_w">
+				<source>Talent Klettern F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_klettern_anmerkung">
+				<source>Talent Klettern Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_koerperbeherrschung_f_w">
+				<source>Talent Koerperbeherrschung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_koerperbeherrschung_anmerkung">
+				<source>Talent Koerperbeherrschung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_kraftakt_f_w">
+				<source>Talent Kraftakt F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_kraftakt_anmerkung">
+				<source>Talent Kraftakt Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_reiten_f_w">
+				<source>Talent Reiten F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_reiten_anmerkung">
+				<source>Talent Reiten Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_schwimmen_f_w">
+				<source>Talent Schwimmen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_schwimmen_anmerkung">
+				<source>Talent Schwimmen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_selbstbeherrschung_f_w">
+				<source>Talent Selbstbeherrschung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_selbstbeherrschung_anmerkung">
+				<source>Talent Selbstbeherrschung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_singen_f_w">
+				<source>Talent Singen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_singen_anmerkung">
+				<source>Talent Singen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sinnesschaerfe_f_w">
+				<source>Talent Sinnesschaerfe F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sinnesschaerfe_anmerkung">
+				<source>Talent Sinnesschaerfe Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_tanzen_f_w">
+				<source>Talent Tanzen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_tanzen_anmerkung">
+				<source>Talent Tanzen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_taschendiebstahl_f_w">
+				<source>Talent Taschendiebstahl F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_taschendiebstahl_anmerkung">
+				<source>Talent Taschendiebstahl Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_verbergen_f_w">
+				<source>Talent Verbergen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_verbergen_anmerkung">
+				<source>Talent Verbergen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_zechen_f_w">
+				<source>Talent Zechen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_zechen_anmerkung">
+				<source>Talent Zechen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_bekehren_f_w">
+				<source>Talent Bekehren F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_bekehren_anmerkung">
+				<source>Talent Bekehren Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_betoeren_f_w">
+				<source>Talent Betoeren F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_betoeren_anmerkung">
+				<source>Talent Betoeren Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_einschuechtern_f_w">
+				<source>Talent Einschuechtern F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_einschuechtern_anmerkung">
+				<source>Talent Einschuechtern Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_etikette_f_w">
+				<source>Talent Etikette F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_etikette_anmerkung">
+				<source>Talent Etikette Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_gassenwissen_f_w">
+				<source>Talent Gassenwissen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_gassenwissen_anmerkung">
+				<source>Talent Gassenwissen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_menschenkenntnis_f_w">
+				<source>Talent Menschenkenntnis F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_menschenkenntnis_anmerkung">
+				<source>Talent Menschenkenntnis Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_ueberreden_f_w">
+				<source>Talent Ueberreden F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_ueberreden_anmerkung">
+				<source>Talent Ueberreden Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_verkleiden_f_w">
+				<source>Talent Verkleiden F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_verkleiden_anmerkung">
+				<source>Talent Verkleiden Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_willenskraft_f_w">
+				<source>Talent Willenskraft F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_willenskraft_anmerkung">
+				<source>Talent Willenskraft Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_faehrtensuchen_f_w">
+				<source>Talent Faehrtensuchen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_faehrtensuchen_anmerkung">
+				<source>Talent Faehrtensuchen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fesseln_f_w">
+				<source>Talent Fesseln F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fesseln_anmerkung">
+				<source>Talent Fesseln Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fischen_f_w">
+				<source>Talent Fischen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fischen_anmerkung">
+				<source>Talent Fischen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_orientierung_f_w">
+				<source>Talent Orientierung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_orientierung_anmerkung">
+				<source>Talent Orientierung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_pflanzenkunde_f_w">
+				<source>Talent Pflanzenkunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_pflanzenkunde_anmerkung">
+				<source>Talent Pflanzenkunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_tierkunde_f_w">
+				<source>Talent Tierkunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_tierkunde_anmerkung">
+				<source>Talent Tierkunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_wildnisleben_f_w">
+				<source>Talent Wildnisleben F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_wildnisleben_anmerkung">
+				<source>Talent Wildnisleben Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_brettspiel_f_w">
+				<source>Talent Brettspiel F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_brettspiel_anmerkung">
+				<source>Talent Brettspiel Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_geographie_f_w">
+				<source>Talent Geographie F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_geographie_anmerkung">
+				<source>Talent Geographie Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_geschichtswissen_f_w">
+				<source>Talent Geschichtswissen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_geschichtswissen_anmerkung">
+				<source>Talent Geschichtswissen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_goetter_f_w">
+				<source>Talent Goetter F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_goetter_anmerkung">
+				<source>Talent Goetter Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_kriegskunst_f_w">
+				<source>Talent Kriegskunst F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_kriegskunst_anmerkung">
+				<source>Talent Kriegskunst Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_magiekunde_f_w">
+				<source>Talent Magiekunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_magiekunde_anmerkung">
+				<source>Talent Magiekunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_mechanik_f_w">
+				<source>Talent Mechanik F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_mechanik_anmerkung">
+				<source>Talent Mechanik Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_rechnen_f_w">
+				<source>Talent Rechnen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_rechnen_anmerkung">
+				<source>Talent Rechnen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sagen_f_w">
+				<source>Talent Sagen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sagen_anmerkung">
+				<source>Talent Sagen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sphaerenkunde_f_w">
+				<source>Talent Sphaerenkunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sphaerenkunde_anmerkung">
+				<source>Talent Sphaerenkunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sternkunde_f_w">
+				<source>Talent Sternkunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_sternkunde_anmerkung">
+				<source>Talent Sternkunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_alchimie_f_w">
+				<source>Talent Alchimie F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_alchimie_anmerkung">
+				<source>Talent Alchimie Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_boote_f_w">
+				<source>Talent Boote F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_boote_anmerkung">
+				<source>Talent Boote Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fahrzeuge_f_w">
+				<source>Talent Fahrzeuge F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_fahrzeuge_anmerkung">
+				<source>Talent Fahrzeuge Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_handel_f_w">
+				<source>Talent Handel F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_handel_anmerkung">
+				<source>Talent Handel Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_gift_f_w">
+				<source>Talent Heilkunde Gift F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_gift_anmerkung">
+				<source>Talent Heilkunde Gift Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_krankheiten_f_w">
+				<source>Talent Heilkunde Krankheiten F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_krankheiten_anmerkung">
+				<source>Talent Heilkunde Krankheiten Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_seele_f_w">
+				<source>Talent Heilkunde Seele F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_seele_anmerkung">
+				<source>Talent Heilkunde Seele Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_wunden_f_w">
+				<source>Talent Heilkunde Wunden F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_heilkunde_wunden_anmerkung">
+				<source>Talent Heilkunde Wunden Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_holzbearbeitung_f_w">
+				<source>Talent Holzbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_holzbearbeitung_anmerkung">
+				<source>Talent Holzbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_lebensmittelbearbeitung_f_w">
+				<source>Talent Lebensmittelbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_lebensmittelbearbeitung_anmerkung">
+				<source>Talent Lebensmittelbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_lederbearbeitung_f_w">
+				<source>Talent Lederbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_lederbearbeitung_anmerkung">
+				<source>Talent Lederbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_malen_f_w">
+				<source>Talent Malen F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_malen_anmerkung">
+				<source>Talent Malen Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_metallbearbeitung_f_w">
+				<source>Talent Metallbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_metallbearbeitung_anmerkung">
+				<source>Talent Metallbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_musizieren_f_w">
+				<source>Talent Musizieren F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_musizieren_anmerkung">
+				<source>Talent Musizieren Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_schloesserknacken_f_w">
+				<source>Talent Schloesserknacken F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_schloesserknacken_anmerkung">
+				<source>Talent Schloesserknacken Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_steinbearbeitung_f_w">
+				<source>Talent Steinbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_steinbearbeitung_anmerkung">
+				<source>Talent Steinbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_stoffbearbeitung_f_w">
+				<source>Talent Stoffbearbeitung F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_stoffbearbeitung_anmerkung">
+				<source>Talent Stoffbearbeitung Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_rechtskunde_f_w">
+				<source>Talent Rechtskunde F W</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.talent_rechtskunde_anmerkung">
+				<source>Talent Rechtskunde Anmerkung</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.sprachen">
+				<source>Sprachen</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_character.schriften">
+				<source>Schriften</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_race">
+				<source>Race</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_race.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_scdsacharmanager_domain_model_race.ap">
+				<source>Ap</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

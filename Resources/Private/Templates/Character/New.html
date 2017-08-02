@@ -1,0 +1,28 @@
+
+<f:layout name="Default" />
+
+This template displays a NEW form for the current domain object.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        New.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<f:flashMessages renderMode="div" />
+<f:render partial="FormErrors" arguments="{object:Character}" />
+
+	<f:form action="create"  name="newCharacter" object="{newCharacter}">
+		<div class="col-md-12 button-header">
+			<button type="submit" name="Speichern" value="Speichern" title ="Speichern" class="btn btn-default"><span class="glyphicon glyphicon-floppy-disk"></button>
+			<f:link.action action="list" title="Abbrechen" class="btn btn-default"><span class="glyphicon glyphicon-remove"></f:link.action>
+			<f:link.action action="list" title="Zurück zur Liste" class="btn btn-default"><span class="glyphicon glyphicon-th-list"></f:link.action>
+		</div>		
+		<f:render partial="Character/FormFields" arguments="{erfahrungsgradListe:erfahrungsgradListe , spezies:spezies}"/>	
+	</f:form>
+
+</f:section>
